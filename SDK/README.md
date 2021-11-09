@@ -39,17 +39,23 @@ An example of the helloworld service daemon build and user-activated program hel
 12. Try it:
 
     > \# helloworld_oneshot
+    > 
     > root@GTR30:/# **helloworld_oneshot**
+    > 
     > helloworld: Hi! This is oneshot HELLO
     > 
     > \# Start the helloworld daemon:
+    > 
     > root@GTR30:/# **/etc/init.d/helloworld start**
     > 
     > \# The daemon's activity can be monitored by the command
+    > 
     > root@GTR30:/# **logread -f | grep helloworld**
     > 
     > \# The helloworld daemon can be stopped in the same way as starting it:
+    > 
     > root@GTR30:/# **/etc/init.d/helloworld stop**
+    > 
     > \#  If rebooting, everything remains, as configured
 
 
